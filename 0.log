@@ -1,0 +1,137 @@
+2026-05-11T09:22:10.959Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T09:22:10.960Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\ASUS\\OneDrive\\Desktop\\cryptograhy\\securechat",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "baseJdkVersion": "17",
+    "targetVersion": "Java 21"
+  }
+}}).
+2026-05-11T09:22:10.960Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T09:22:10.961Z [INFO] Project c:\Users\ASUS\OneDrive\Desktop\cryptograhy\securechat is a maven project, try to get java version from pom.xml
+2026-05-11T09:22:10.962Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260511092210,\nSession Dir: c:\\Users\\ASUS\\OneDrive\\Desktop\\cryptograhy\\securechat\\.github\\java-upgrade\\20260511092210"
+}}).
+2026-05-11T09:22:10.963Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T09:22:10.964Z [INFO] Project java version: 17
+2026-05-11T09:22:10.965Z [INFO] Maven project detected.
+2026-05-11T09:22:10.965Z [INFO] Build tool type: mvnw
+2026-05-11T09:22:11.012Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+  "version": "17"
+}
+2026-05-11T09:22:11.012Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-05-11T09:22:11.013Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "securechat",
+  "dir": "c:\\Users\\ASUS\\OneDrive\\Desktop\\cryptograhy\\securechat"
+}
+2026-05-11T09:22:15.256Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T09:22:15.257Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\ASUS\\OneDrive\\Desktop\\cryptograhy\\securechat",
+  "sessionId": "20260511092210",
+  "status": "succeeded"
+}}).
+2026-05-11T09:22:15.257Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T09:22:15.257Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T09:22:15.258Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T09:22:15.296Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T09:22:15.296Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\ASUS\\OneDrive\\Desktop\\cryptograhy\\securechat",
+  "sessionId": "20260511092210",
+  "status": "succeeded"
+}}).
+2026-05-11T09:22:15.297Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T09:22:15.298Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260511092210,\nSession Dir: c:\\Users\\ASUS\\OneDrive\\Desktop\\cryptograhy\\securechat\\.github\\java-upgrade\\20260511092210"
+}}).
+2026-05-11T09:22:15.299Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T09:22:15.327Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-05-11T09:22:15.328Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260511092210"
+}}).
+2026-05-11T09:22:15.328Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T09:22:15.329Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-05-11T09:22:15.329Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-05-11T09:22:15.365Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-05-11T09:22:15.365Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260511092210"
+}}).
+2026-05-11T09:22:15.366Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T09:22:15.374Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.19\n   📁 Path: C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin\n   🏷️ Source: PATH\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-05-11T09:22:15.374Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-05-11T09:22:15.387Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-05-11T09:22:15.387Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260511092210",
+  "includeVersion": true
+}}).
+2026-05-11T09:22:15.388Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T09:22:15.388Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-05-11T09:22:15.389Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-05-11T09:22:15.428Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-05-11T09:22:15.429Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260511092210",
+  "includeVersion": true
+}}).
+2026-05-11T09:22:15.429Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T09:22:15.433Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-05-11T09:22:15.434Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-05-11T09:22:21.598Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-05-11T09:22:21.598Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260511092210",
+  "version": "21"
+}}).
+2026-05-11T09:22:21.599Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T09:22:22.870Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-05-11T09:22:22.871Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-05-11T09:22:22.899Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-05-11T09:22:22.899Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20260511092210",
+  "version": "21"
+}}).
+2026-05-11T09:22:22.899Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T09:24:14.476Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\ASUS\\.jdk\\jdk-21.0.10\\bin",
+    "version": "21.0.10"
+  },
+  "message": "JDK 21 is installed at C:\\Users\\ASUS\\.jdk\\jdk-21.0.10\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "21"
+  }
+}}).
+2026-05-11T09:24:14.476Z [INFO] ----------------------invoked appmod-install-jdk----------------------
